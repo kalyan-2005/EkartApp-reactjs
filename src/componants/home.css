@@ -1,0 +1,29 @@
+.cart-hover:hover {
+    background-color: rgba(67, 67, 66, 0.395);
+}
+::placeholder {
+    color: white;
+}
+@media all and (min-width:550px) {
+    .move-search {
+        display: flex;
+    }
+    .enlarge-search {
+        width: 30vw;
+    }
+    .cart-count {
+        right: 145px;
+        top: 10px;
+    }
+}
+@media all and (max-width:550px) {
+    .enlarge-search {
+        width: 80%;
+        margin: 8px 0 18px 0;
+
+    }
+    .cart-count {
+        top: 120px;
+        left: 50px;
+    }
+}

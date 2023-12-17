@@ -1,0 +1,33 @@
+@media all and (min-width:1200px) {
+    .product-flex {
+        display: flex;
+    }
+    .product-width {
+        width: 75%;
+    }
+    .product-content-width {
+        width: 50%;
+    }
+    .product-pad {
+        padding: 50px;
+    }
+}
+@media all and (max-width:1200px) {
+    .product-width {
+        width: 100%;
+    }
+    .product-content-width {
+        width: 75%;
+    }
+    .product-pad {
+        padding: 50px;
+    }
+}
+@media all and (max-width:800px) {
+    .product-content-width {
+        width: 100%;
+    }
+    .product-pad {
+        padding: 10px;
+    }
+}

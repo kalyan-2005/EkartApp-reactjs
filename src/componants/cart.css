@@ -1,0 +1,19 @@
+@media all and (min-width:1200px) {
+    .cart-flex {
+        display: flex;
+    }
+    .cart-width-1 {
+        width: 75%;
+    }
+    .cart-width-2 {
+        width: 25%;
+    }
+}
+@media all and (max-width:1200px) {
+    .cart-width-1 {
+        width: 100%;
+    }
+    .cart-width-2 {
+        width: 100%;
+    }
+}
